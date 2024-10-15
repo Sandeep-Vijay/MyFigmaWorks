@@ -1,0 +1,240 @@
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    font-size: 112px; 
+    font-family: Poppins;
+    font-weight: 600; 
+    text-transform: capitalize; 
+    word-wrap: break-word;
+    background: linear-gradient(to right,rgba(244, 137, 137, 1),rgba(65, 150, 118, 1),rgba(163, 130, 233, 1),rgba(245, 128, 198, 1)); /* Define the gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent */
+}
+.favanimeimg{
+    width: fit-content;
+}
+
+.project1{
+width: 100%; 
+height: 50vh;
+background: linear-gradient(90deg, #967DDF 0%, #794677 50%, #68377B 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px
+}
+
+.project1:hover{
+    transform: scale(1.025)  ; 
+transition: .25s ease-out;
+box-shadow: 5px 5px 50px 15px rgba(0, 0, 0, 0.089);
+}
+
+
+
+.project2{
+    width: 100%; 
+    height: 50vh;
+    background: linear-gradient(90deg, #BDDCEA 0%, #BDC7DE 22%, #EFC9D7 44%, #F4CDB7 63%, #F2F1CA 81%, #C8E1C8 100%); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px
+    }
+
+    .project2:hover{
+        transform: scale(1.025)  ; 
+transition: .25s ease-out;
+box-shadow: 5px 5px 50px 15px rgba(0, 0, 0, 0.089);
+    }
+
+.project3{
+        width: 100%; 
+        height: 50vh;
+        background: linear-gradient(59deg, #47B17D 0%, #44A977 52%, #2C714F 100%); 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 24px
+        }
+        .project3:hover{
+            transform: scale(1.025)  ; 
+            transition: .25s ease-out;
+            box-shadow: 5px 5px 50px 15px rgba(0, 0, 0, 0.089);
+        }
+
+.project4{
+            width: 100%; 
+            height: 50vh;
+            background: linear-gradient(122deg, #003978 0%, #116ED4 50%, #007AFF 100%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 24px
+            }
+            .project4:hover{
+                transform: scale(1.025)  ; 
+transition: .25s ease-out;
+box-shadow: 5px 5px 50px 15px rgba(0, 0, 0, 0.089);
+            }
+
+            
+
+
+.btn:hover{
+    background-color: rgba(80, 80, 80, 0.342);;
+}
+.svsign{
+    padding: 40px;
+    background: linear-gradient(to right,rgba(109, 109, 109, 1),rgba(63, 63, 63, 0.5)); /* Define the gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent */
+
+ font-size: 40px;
+ font-family: Brittany Signature;
+ font-weight: 400;
+ word-wrap: break-word
+}
+.exploremy{
+color: #464646;
+
+ font-size: 68px;
+ font-family: Brittany Signature;
+ font-weight: 400;
+
+}
+.Creations{
+color: rgb(80, 80, 80);
+font-size: 36px; 
+font-family: Poppins; 
+font-weight: 250; 
+letter-spacing: 22.68px;
+}
+
+.animeimg{
+    margin-top: 100px; 
+    width: 70%;    
+         
+}
+
+.igniteimg{
+    margin-top: 20px;
+    width:90%;
+}
+.stitchupimg{
+    margin-top: 70px;
+    width:40%;
+}
+.bookifyimg{
+    width:70%;
+  margin-top: 100px;
+}
+.sun{
+    
+    margin-right: 4px; 
+    width: 60px; 
+    height: 60px; 
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255); 
+}
+.moon{
+    width: 60px;
+    height: 60px; 
+     
+     border-radius: 100px;
+}
+.moon:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+@media only screen and (max-width: 375px) {
+    .exploremy{
+        color: #bebebe;
+        
+         font-size: 32px;
+         font-family: Brittany Signature;
+         font-weight: 400;
+        
+        }
+        .gradient-text {
+            font-size: 48px;
+            font-weight: bold;
+          
+            font-family: Poppins;
+            font-weight: 600; 
+            text-transform: capitalize; 
+            word-wrap: break-word;
+            background: linear-gradient(to right,rgba(244, 137, 137, 1),rgba(65, 150, 118, 1),rgba(163, 130, 233, 1),rgba(245, 128, 198, 1)); /* Define the gradient colors */
+            -webkit-background-clip: text; /* Clip the background to the text */
+            -webkit-text-fill-color: transparent; /* Make the text color transparent */
+        }
+        .Creations{
+            color: #E5DFDF; 
+            font-size: 14px; 
+            font-family: Poppins; 
+            font-weight: 150; 
+            letter-spacing: 22.68px;
+            }
+            .svsign{
+                padding: 40px;
+                background: linear-gradient(to right,rgba(109, 109, 109, 1),rgba(63, 63, 63, 0.5)); /* Define the gradient colors */
+                -webkit-background-clip: text; /* Clip the background to the text */
+                -webkit-text-fill-color: transparent; /* Make the text color transparent */
+            
+             font-size: 12px;
+             font-family: Brittany Signature;
+             font-weight: 400;
+             word-wrap: break-word
+            }
+            .project1{
+                width: 100%; 
+                height: 40vh;
+                background: linear-gradient(90deg, #967DDF 0%, #794677 50%, #68377B 100%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 24px
+                }
+             
+                
+                
+                
+                .project2{
+                    width: 100%; 
+                    height: 40vh;
+                    background: linear-gradient(90deg, #BDDCEA 0%, #BDC7DE 22%, #EFC9D7 44%, #F4CDB7 63%, #F2F1CA 81%, #C8E1C8 100%); 
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 24px
+                    }
+                
+                    
+                
+                .project3{
+                        width: 100%; 
+                        height: 40vh;
+                        background: linear-gradient(59deg, #47B17D 0%, #44A977 52%, #2C714F 100%); 
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 24px
+                        }
+                        .project3:hover{
+                            transform: scale(1.025)  ; 
+                            transition: .25s ease-out;
+                            box-shadow: 5px 5px 50px 15px rgb(0, 0, 0);
+                        }
+                
+                .project4{
+                            width: 100%; 
+                            height: 40vh;
+                            background: linear-gradient(122deg, #003978 0%, #116ED4 50%, #007AFF 100%);
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 24px
+                            }
+                            .favanimeimg{
+                                width: 90%;
+                            }
+                            .sun{
+    
+                                margin-right: 4px; 
+                                width: 48px; 
+                                height: 48px; 
+                                border-radius: 100px;
+                            }
+                            .moon{
+                                width: 48px;
+                                height: 48px; 
+                                 background-color: rgb(80, 80, 80); 
+                                 border-radius: 100px;
+                                
+                            }   
+        
+  }
